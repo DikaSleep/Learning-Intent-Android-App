@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyIntentApp</string>
+    <string name="move_activity">move_activity</string>
+    <string name="browser">browser</string>
+    <string name="Back">kembali</string>
+    <string name="Phone">Phone</string>
+    <string name="Map">location</string>
+    <string name="teks">Teks</string>
+    <string name="email">Email</string>
+</resources>
