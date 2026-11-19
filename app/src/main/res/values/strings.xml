@@ -7,4 +7,11 @@
     <string name="Map">location</string>
     <string name="teks">Teks</string>
     <string name="email">Email</string>
+    <string name="MoveData">Pindah Activity dengan Data</string>
+    <string name="received">data_received</string>
+    <string name="wellcome">Halo Andika!</string>
+    <string name="tambah_data">Tambah data</string>
+    <string name="foto_profil">Foto profil</string>
+    <string name="tamabah_progress_bar">Tamabah Progress bar</string>
+    <string name="create_account">Create Account</string>
 </resources>

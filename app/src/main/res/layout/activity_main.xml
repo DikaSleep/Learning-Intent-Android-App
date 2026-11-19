@@ -6,47 +6,97 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:padding="100dp"
     android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#2196F3"
+        android:title="My Application"/>
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/wellcome"
+
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btn_move"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/move_activity"/>
+        android:layout_margin="5dp"
+        android:text="@string/move_activity" />
 
     <Button
         android:id="@+id/btn_browser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/browser"/>
+        android:layout_margin="5dp"
+        android:text="@string/browser" />
 
     <Button
         android:id="@+id/btn_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Phone"/>
+        android:layout_margin="5dp"
+        android:text="@string/Phone" />
 
     <Button
         android:id="@+id/btn_map"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Map"/>
+        android:layout_margin="5dp"
+        android:text="@string/Map" />
 
     <Button
         android:id="@+id/btn_teks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/teks"/>
+        android:layout_margin="5dp"
+        android:text="@string/teks" />
 
     <Button
         android:id="@+id/btn_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/email"/>
+        android:layout_margin="5dp"
+        android:text="@string/email" />
 
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="4dp"
 
+        >
 
+        <ImageView
+            android:id="@+id/imgProfil"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/foto_profil"
+            android:scaleType="centerCrop"
+            android:src="@drawable/download" />
 
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tamabah_progress_bar"/>
 </LinearLayout>
